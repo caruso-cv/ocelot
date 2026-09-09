@@ -114,7 +114,7 @@ const Hero: React.FC<HeroProps> = ({ className, height, children, config }) => {
           />
         </div>
 
-        <div className={`absolute inset-x-0 top-0 bottom-0 transform-gpu z-20 flex flex-col items-center justify-center md:justify-start text-center ${config.layout.logoPadding} ${config.videoSrc.includes('lab-hero') ? 'md:translate-y-12' : ''}`}>
+        <div className={`absolute inset-x-0 top-0 bottom-0 transform-gpu z-20 flex flex-col items-center text-center ${config.videoSrc.includes('lab-hero') ? 'justify-center md:justify-start md:translate-y-12' : 'justify-center'} ${config.layout.logoPadding}`}>
           {/* Logo */}
           {config.videoSrc.includes('lab-hero') ? (
             <HeroLogoLab widthClasses={config.logo.widthClasses} />

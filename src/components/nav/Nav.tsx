@@ -27,8 +27,8 @@ import SvgComponent from "@/components/ui/corner"
 import { useRecentPosts } from "@/hooks/useRecentPosts"
 
 // Import new navigation assets
-import vwNavAvif from '@/assets/avif/vw-nav.avif'
-import vwNavWebp from '@/assets/webp/vw-nav.webp'
+import vwNavAvif from '@/assets/avif/vw-wordmark.avif'
+import vwNavWebp from '@/assets/webp/vw-wordmark.webp'
 import labNavAvif from '@/assets/avif/lab-nav.avif'
 import labNavWebp from '@/assets/webp/lab-nav.webp'
 
@@ -168,16 +168,16 @@ export default function Nav() {
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.25, ease: [0.455, 0.03, 0.515, 0.955] }}
-                            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-                            style={{ width: '150px', height: '150px' }}
+                            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]"
+                            style={{ width: '180px', height: '60px' }}
                           >
                             <picture>
                               <source srcSet={logoMap['/gif/vw.gif'].avif.src} type="image/avif" />
                               <Image
                                 src={logoMap['/gif/vw.gif'].webp.src}
                                 alt="VW logo overlay"
-                                width={150}
-                                height={150}
+                                width={180}
+                                height={60}
                                 className="w-full h-full object-contain"
                               />
                             </picture>
