@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Cookie Policy for Guild Saga games, websites and related services.",
     images: [
       {
-        url: '/webp/vw.webp',
+        url: '/webp/vw-og.jpg',
         width: 1200,
         height: 630,
         alt: 'Guild Saga Cookie Policy',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     title: "Cookie Policy - Guild Saga",
     description: "Cookie Policy for Guild Saga games, websites and related services.",
-    images: ['/webp/vw.webp'],
+    images: ['/webp/vw-og.jpg'],
   },
   alternates: {
     canonical: '/cookies',

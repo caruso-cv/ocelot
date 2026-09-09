@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "Learn about Ocelot Technologies, an independent game development studio creating expansive RPG worlds.",
     images: [
       {
-        url: '/webp/vw.webp',
+        url: '/webp/vw-og.jpg',
         width: 1200,
         height: 630,
         alt: 'Ocelot Technologies About',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     title: "About Us - Ocelot Technologies",
     description: "Learn about Ocelot Technologies, an independent game development studio creating expansive RPG worlds.",
-    images: ['/webp/vw.webp'],
+    images: ['/webp/vw-og.jpg'],
   },
   alternates: {
     canonical: '/about',

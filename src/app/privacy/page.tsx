@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "Privacy Policy for Guild Saga games, websites and related services.",
     images: [
       {
-        url: '/webp/vw.webp',
+        url: '/webp/vw-og.jpg',
         width: 1200,
         height: 630,
         alt: 'Guild Saga Privacy Policy',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     title: "Privacy Policy - Guild Saga",
     description: "Privacy Policy for Guild Saga games, websites and related services.",
-    images: ['/webp/vw.webp'],
+    images: ['/webp/vw-og.jpg'],
   },
   alternates: {
     canonical: '/privacy',

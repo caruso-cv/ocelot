@@ -212,7 +212,7 @@ export const metadata: Metadata = {
     description: "Experience tactical turn-based combat in Guild Saga: Vanished Worlds. Recruit heroes, explore dungeons, and master strategic gameplay.",
     images: [
       {
-        url: '/webp/vw.webp',
+        url: '/webp/vw-og.jpg',
         width: 1200,
         height: 630,
         alt: 'Guild Saga: Vanished Worlds',
@@ -222,7 +222,7 @@ export const metadata: Metadata = {
   twitter: {
     title: "Guild Saga: Vanished Worlds - Tactical RPG",
     description: "Experience tactical turn-based combat in Guild Saga: Vanished Worlds. Recruit heroes, explore dungeons, and master strategic gameplay.",
-    images: ['/webp/vw.webp'],
+    images: ['/webp/vw-og.jpg'],
   },
   alternates: {
     canonical: '/',

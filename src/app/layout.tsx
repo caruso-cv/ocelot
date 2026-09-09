@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     siteName: 'Guild Saga',
     images: [
       {
-        url: '/webp/vw.webp',
+        url: '/webp/vw-og.jpg',
         width: 1200,
         height: 630,
         alt: 'Guild Saga - Vanished Worlds',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Guild Saga - Tactical RPG Games',
     description: 'Experience tactical turn-based combat in Guild Saga\'s fantasy RPG games.',
-    images: ['/webp/vw.webp'],
+    images: ['/webp/vw-og.jpg'],
     creator: '@GuildSaga',
   },
   robots: {
