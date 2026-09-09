@@ -14,7 +14,7 @@ const heroConfig = {
   videoSrc: "/video/vw-hero.webm",
   posterSrc: "/assets/webp/hero-thumb.webp",
   logo: {
-    widthClasses: "w-[22rem] sm:w-[30rem] lg:w-[38rem]"
+    widthClasses: "w-[22rem] sm:w-[30rem] lg:w-[34rem] 3xl:w-[38rem]"
   },
   title: "",
   subtitle: "",
@@ -26,7 +26,7 @@ const heroConfig = {
     partnerMargin: "md:mb-8",
     buttonPosition: "mt-4 sm:mt-8",
     buttonSize: "text-sm md:text-base 3xl:text-xl",
-    buttonTop: "59%"
+    buttonTop: "top-[60%] 3xl:top-[59%]"
   },
   shadows: {
     topGradient: "bg-gradient-to-b from-black/40 to-black/0",
@@ -232,7 +232,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <SmokeContainer>
-      <Hero className='h-[500px] md:h-[640px] lg:h-[720px]' config={heroConfig}/>
+      <Hero className='h-[540px] md:h-[700px] lg:h-[700px] 3xl:h-[800px]' config={heroConfig}/>
       <Container>
         <Characters 
           characters={characters}

@@ -8,7 +8,7 @@ interface HeroLogoMainProps {
 
 export default function HeroLogoMain({ widthClasses }: HeroLogoMainProps) {
   return (
-    <div className={`mx-auto h-auto mb-2 -translate-y-8 md:-translate-y-12 lg:-translate-y-16 ${widthClasses} select-none animate-slide-up-gentle drop-shadow-[0_4px_3px_rgba(0,0,0,0.95)] drop-shadow-[0_12px_24px_rgba(0,0,0,0.7)]`}>
+    <div className={`mx-auto h-auto mb-2 -translate-y-8 md:-translate-y-12 lg:-translate-y-6 3xl:-translate-y-10 ${widthClasses} select-none animate-slide-up-gentle drop-shadow-[0_4px_3px_rgba(0,0,0,0.95)] drop-shadow-[0_12px_24px_rgba(0,0,0,0.7)]`}>
       <SafariImage
         avifSrc={vwAvif.src}
         webpSrc={vwWebp.src}

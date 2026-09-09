@@ -28,7 +28,7 @@ const heroConfig = {
     partnerMargin: "md:mb-8",
     buttonPosition: "mt-4 sm:mt-8",
     buttonSize: "text-sm md:text-base 3xl:text-xl",
-    buttonTop: "68%",
+    buttonTop: "top-[68%]",
     buttonHueClass: " saturate-200 brightness-110",
     showButton: true,
     buttonLabel: "WISHLIST",

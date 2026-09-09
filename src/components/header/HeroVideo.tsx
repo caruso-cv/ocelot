@@ -35,7 +35,7 @@ export default function HeroVideo({ videoSrc, posterSrc }: HeroVideoProps) {
           src={vwHeroThumb}
           alt="Video poster"
           fill
-          className="object-cover z-0"
+          className="object-cover object-[center_82%] z-0"
           priority
           placeholder="blur"
           quality={90}
@@ -54,7 +54,7 @@ export default function HeroVideo({ videoSrc, posterSrc }: HeroVideoProps) {
           src={vwHeroThumb}
           alt="Video poster"
           fill
-          className="object-cover z-0 "
+          className="object-cover object-[center_82%] z-0 "
           priority
           placeholder="blur"
           quality={90}
@@ -65,7 +65,7 @@ export default function HeroVideo({ videoSrc, posterSrc }: HeroVideoProps) {
       
       <video
         ref={videoRef}
-        className="absolute inset-0 w-full h-full object-cover z-0 scale-x-[-1]"
+        className="absolute inset-0 w-full h-full object-cover object-[center_82%] z-0 scale-x-[-1]"
         autoPlay
         loop
         muted
